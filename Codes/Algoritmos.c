@@ -77,7 +77,12 @@ void quick_sort(int *vetor, int left, int right){
 
 //Algoritmo escolhido pelo grupo
 
-/*TODO: Escolher um algoritmo*/
+long int Fatorial (int n) {
+
+    if ((n==1) || (n==0))
+        return 1;               
+    else
+        return Fatorial(n-1)*n;}                       
 
 //Algoritmo escolhido pelo grupo modificado
 

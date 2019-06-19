@@ -1,3 +1,4 @@
 Bubble: http://www.devfuria.com.br/logica-de-programacao/exemplos-na-linguagem-c-do-algoritmo-bubble-sort/
 Radix: https://github.com/Fernando-Lafeta/Algoritmos-de-ordenacao/blob/master/radix-sort.c
 Quick: https://programasprontos.wordpress.com/2012/11/15/algortimo-quick-sort/
+Fatorial: https://www.vivaolinux.com.br/script/Fatorial-Recursivo
