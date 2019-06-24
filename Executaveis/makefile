@@ -1,5 +1,10 @@
-install:
+#Comandos para instalar requisitos:
+
+installPerf:
 	sudo apt install linux-tools-common linux-tools-generic #Instalar ferramentas para o perf
+
+installValgrind:
+	sudo apt install valgrind #instalar valgrind
 
 #Comandos do Bubble:
 
