@@ -1,9 +1,9 @@
 #include "Algoritmos.h"
-#define MAX 8
+#define MAX 10000
 
 int main(){
 
-    Fatorial(MAX);
+    FatorialMelhorado(MAX);
     
     return 0;
 }

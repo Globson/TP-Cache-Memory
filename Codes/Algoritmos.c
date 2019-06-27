@@ -77,13 +77,23 @@ void quick_sort(int *vetor, int left, int right){
 
 //Algoritmo escolhido pelo grupo
 
-long int Fatorial (int n) {
+void Fatorial (int n) {
 
-    if ((n==1) || (n==0))
-        return 1;               
-    else
-        return Fatorial(n-1)*n;}                       
+    long long unsigned int fat;
+    
+    for(fat = 1; n > 1; n = n - 1){
+        fat = fat * n;
+    }
+    
+    //printf("\nFatorial calculado: %ld\n", fat);
+}                     
 
 //Algoritmo escolhido pelo grupo modificado
+
+long long unsigned int FatorialMelhorado (int n) {
+    
+    return n ? n * FatorialMelhorado(n-1) : 1;
+    //printf("\nFatorial calculado: %ld\n", fat);
+}                       
 
 /*TODO: Alterar o algoritmo*/

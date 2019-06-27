@@ -13,9 +13,11 @@ void quick_sort(int *vetor, int left, int right);
 
 //Algoritmo escolhido pelo grupo
 
-long int Fatorial(int n);
+void Fatorial(int n);
 
 //Algoritmo escolhido pelo grupo modificado
+
+long long unsigned int FatorialMelhorado (int n);                 
 
 /*TODO: Prototipo do algoritmo alterado*/
 
