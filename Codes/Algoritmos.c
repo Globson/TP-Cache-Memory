@@ -90,9 +90,9 @@ void Fatorial (int n) {
 
 //Algoritmo escolhido pelo grupo modificado
 
-long long unsigned int FatorialMelhorado (int n) {
+long long unsigned int FatorialRecursivo (int n) {
     
-    return n ? n * FatorialMelhorado(n-1) : 1;
+    return n ? n * FatorialRecursivo(n-1) : 1;
     //printf("\nFatorial calculado: %ld\n", fat);
 }                       
 

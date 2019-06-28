@@ -17,7 +17,7 @@ void Fatorial(int n);
 
 //Algoritmo escolhido pelo grupo modificado
 
-long long unsigned int FatorialMelhorado (int n);                 
+long long unsigned int FatorialRecursivo (int n);                 
 
 /*TODO: Prototipo do algoritmo alterado*/
 
